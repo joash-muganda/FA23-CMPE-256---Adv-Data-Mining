@@ -1,25 +1,38 @@
-# Image Data Mining: LBP
+# Image Data Mining with OpenCV and Deep Learning
 
 ## Overview
-This project focuses on the application of Local Binary Patterns (LBP) for image data mining. LBP is a powerful texture descriptor and is utilized here for analyzing images and videos. By running LBP analysis on given images, we extract histograms that serve as unique data signatures, providing insights into the textural properties of the image data.
+This project involves the application of image data mining techniques using OpenCV and deep learning models. The goal is to analyze a set of images, applying advanced computer vision and machine learning techniques to extract meaningful information and observe patterns.
 
 ## Objective
-- Perform LBP analysis on provided images.
-- Extract and collect histograms from these images, representing the data signatures of their textural features.
+- Utilize OpenCV along with deep learning models for image data mining.
+- Share observations and analyze image histograms derived from the processed images.
 
 ## Requirements
 - Python (3.x recommended)
-- Libraries: OpenCV, NumPy, Matplotlib (for histogram visualization)
+- OpenCV Python Library
+- Deep Learning Libraries (such as TensorFlow or PyTorch)
+- Jupyter Notebook (for `.ipynb` files execution)
 
+## Installation
+Ensure you have the required libraries installed. You can install them using pip:
+```bash
+pip install opencv-python
+pip install tensorflow  # or pytorch, depending on the model used
+pip install jupyter
 ## Usage
-1. Place the images you want to analyze in a designated folder.
-2. Run the provided Python script `lbp.py` to perform LBP analysis on these images.
-3. The script will process each image, compute its LBP histogram, and save or display these histograms for further analysis.
+- Clone the repository and navigate to the project directory.
+- Place your images in a specified folder within the project directory.
+- Open the Jupyter Notebooks (SJSUDeepLearningFaceDetectionML.ipynb and SJSUFaceDetectionML.ipynb) to run the analysis.
+- Execute the cells in each notebook to perform image data mining.
+- Observe the output which includes image histograms and other observations.
 
-## LBP Analysis
-Local Binary Patterns (LBP) is a simple yet effective texture descriptor. The LBP feature vector, in the form of a histogram, represents the distribution of micro-patterns like edges, spots, and flat areas in an image.
+## Methodology
+- **OpenCV**: Used for image processing and feature extraction.
+- **Deep Learning Models**: Employed for more complex analysis like pattern recognition, face detection, etc.
+- **Observations**: Key findings and patterns identified from the images are noted.
+- **Histogram Analysis**: Histograms of the images are generated to understand the distribution of pixel intensities.
 
 ## Output
-After processing, the histograms of the images will be:
-- Displayed on the screen (or)
-- Saved in a specified directory (depending on the script's configuration)
+- Detailed observations from the analysis.
+- Histograms and other statistical data visualizations for each image.
+- Possible conclusions or inferences drawn from the data mining process.
