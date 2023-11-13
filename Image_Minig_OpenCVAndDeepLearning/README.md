@@ -15,16 +15,16 @@ This project involves the application of image data mining techniques using Open
 
 ## Installation
 Ensure you have the required libraries installed. You can install them using pip:
-```bash
 pip install opencv-python
-pip install tensorflow  # or pytorch, depending on the model used
+pip install tensorflow # or pytorch, depending on the model used
 pip install jupyter
+
 ## Usage
-- Clone the repository and navigate to the project directory.
-- Place your images in a specified folder within the project directory.
-- Open the Jupyter Notebooks (SJSUDeepLearningFaceDetectionML.ipynb and SJSUFaceDetectionML.ipynb) to run the analysis.
-- Execute the cells in each notebook to perform image data mining.
-- Observe the output which includes image histograms and other observations.
+1. Clone the repository and navigate to the project directory.
+2. Place your images in a specified folder within the project directory.
+3. Open the Jupyter Notebooks (`SJSUDeepLearningFaceDetectionML.ipynb` and `SJSUFaceDetectionML.ipynb`) to run the analysis.
+4. Execute the cells in each notebook to perform image data mining.
+5. Observe the output which includes image histograms and other observations.
 
 ## Methodology
 - **OpenCV**: Used for image processing and feature extraction.
